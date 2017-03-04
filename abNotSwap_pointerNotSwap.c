@@ -24,6 +24,6 @@ main()
 		swap(pointer_1, pointer_2);
 	}
 
-	printf("\na = %d, b = %d\n",a,b);
-	printf("\npointer_1 = %d, pointer_2 = %d\n", *pointer_1, *pointer_2);
+	printf("\na = %d, b = %d\n",a,b);	//a,b not swap	
+	printf("\npointer_1 = %d, pointer_2 = %d\n", *pointer_1, *pointer_2); //pointer value also not swap
 }
