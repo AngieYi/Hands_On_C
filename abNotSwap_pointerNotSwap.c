@@ -21,7 +21,7 @@ main()
 
 	if (a < b)
 	{
-		swap(pointer_1, pointer_2);
+		swap(pointer_1, pointer_2);// p1,p2 swap but formal parameter could not transfer to actual parameter,so pointer1,2 not change
 	}
 
 	printf("\na = %d, b = %d\n",a,b);	//a,b not swap	
