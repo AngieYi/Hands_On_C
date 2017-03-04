@@ -14,6 +14,6 @@ main()
 		p2 = p;
 	}
 
-	printf("\na = %d, b = %d\n", a, b);
-	printf("p1 = %d, p2 = %d\n", *p1, *p2);
+	printf("\na = %d, b = %d\n", a, b);       // a, b not swap	
+	printf("*p1 = %d, *p2 = %d\n", *p1, *p2); // pointer value swap
 }
