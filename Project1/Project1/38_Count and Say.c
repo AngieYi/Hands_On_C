@@ -45,7 +45,6 @@ char* countAndSay(int n)
 		next[j] = '\0';
 		strcpy(cur, next);
 	}
-
 	return cur;
 }
 
